@@ -17,4 +17,5 @@ CUDA_VISIBLE_DEVICES=$device_id python3 main.py \
     --alpha=$ALPHA \
     --logdir='./logs/' \
     --datadir='./data/' \
-    --ckptdir='./models/'
+    --ckptdir='./models/'\
+    --print_interval=1
